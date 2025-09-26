@@ -122,6 +122,5 @@ label {
 @media (max-width: 480px) {
     form {
         grid-template-columns: 1fr 1fr;
-        justify-content: center;
     }
 }
