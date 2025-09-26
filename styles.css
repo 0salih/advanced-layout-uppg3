@@ -39,7 +39,7 @@ footer {
 }
 
 img {
-    width: 40vw;
+    width: 30vw;
     height: auto;
 }
 
@@ -94,11 +94,19 @@ form {
     background-color: #d5e3f0;
     padding: 1rem;
     display: grid;
-    grid-template-columns: 1fr;
+}
+
+fieldset {
+    max-width: 400px;
+    width: 100%;
+    margin: 1rem auto;
+    box-sizing: border-box;
+
 }
 
 .submit {
     margin: 0 auto;
+
 }
 
 .submit input {
@@ -109,4 +117,11 @@ form {
 label {
     display: block;
     padding-bottom: 7px;
+}
+
+@media (max-width: 480px) {
+    form {
+        grid-template-columns: auto auto;
+        justify-content: center;
+    }
 }
